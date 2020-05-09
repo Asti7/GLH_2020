@@ -1,0 +1,50 @@
+.header-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid black;
+}
+
+// Name and Logo Div
+
+.name-and-logo-div{
+    display: flex;
+}
+
+.name-div{
+    font-size: 4rem;
+}
+
+.logo-div{
+    padding-top: 0.9rem;
+    padding-left: 1rem;
+}
+
+.logo{
+    height: 7vh;
+}
+
+// Name and Logo Div
+
+// Menu Options Div
+
+.menu-options-div{
+    display: flex;
+}
+
+.menu-option{
+    padding: 1rem 0.75rem;
+    padding-top: 1.75rem;
+    font-size: 1.1rem;
+}
+
+.menu-option-link{
+    color:  black;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+// Menu Options Div
