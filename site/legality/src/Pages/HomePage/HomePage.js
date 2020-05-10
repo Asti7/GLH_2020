@@ -12,6 +12,7 @@ class HomePage extends Component {
     return (
       <>
         <Header />
+        {/* Our Services Div */}
         <div className={style["functionalities-main-div"]}>
           <div className={style["functionalities-div-main-heading"]}>
             Our Services
@@ -80,6 +81,9 @@ class HomePage extends Component {
             {/* Third Card */}
           </div>
         </div>
+        {/* Our Services Div */}
+        {/* Questionnaire Div */}
+        {/* Questionnaire Div */}
       </>
     );
   }
