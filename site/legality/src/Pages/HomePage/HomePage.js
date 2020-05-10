@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 import style from "./HomePage.module.scss";
 
 class HomePage extends Component {
@@ -82,8 +83,7 @@ class HomePage extends Component {
           </div>
         </div>
         {/* Our Services Div */}
-        {/* Questionnaire Div */}
-        {/* Questionnaire Div */}
+        <Footer />
       </>
     );
   }

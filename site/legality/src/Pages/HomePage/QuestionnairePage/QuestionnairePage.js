@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import style from "./QuestionnairePage.module.scss";
 import Header from "../../../Components/Header/Header";
+import Footer from "../../../Components/Footer/Footer";
 
 class QuestionnairePage extends Component {
   constructor(props) {
@@ -302,6 +303,7 @@ class QuestionnairePage extends Component {
             {/* Card */}
           </div>
         </div>
+        <Footer />
       </>
     );
   }
