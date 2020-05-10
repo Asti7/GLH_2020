@@ -1,4 +1,0 @@
-TODO:
-- "create website project in the site folder"
-- after creating the project delete message.txt (this file).
-
