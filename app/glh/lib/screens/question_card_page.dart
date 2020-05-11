@@ -16,30 +16,25 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
   Widget build(BuildContext context) {
     var delayAmount = 500;
     return Scaffold(
-      floatingActionButton: Container(
-        height: 40.0,
-        width: 40.0,
-        child: FittedBox(
-          child: FloatingActionButton(onPressed: () {
-            Navigator.pushNamed(context, QuestionCardSearch.id);
-          },
-          child: Icon(Icons.search),
+      floatingActionButton: ShowUp(
+        delay: delayAmount * 4,
+        child: Container(
+          height: 40.0,
+          width: 40.0,
+          child: FittedBox(
+            child: FloatingActionButton(
+              backgroundColor: color8,
+              onPressed: () {
+                Navigator.pushNamed(context, QuestionCardSearch.id);
+              },
+              child: Icon(Icons.search),
+            ),
           ),
         ),
       ),
-          body: Container(
+      body: Container(
         decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.all(
-            Radius.circular(20.0),
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black,
-              offset: Offset(0.0, 1.0), //(x,y)
-              blurRadius: 6.0,
-            ),
-          ],
+          color: color7,
         ),
         child: SingleChildScrollView(
           child: Padding(
@@ -49,7 +44,7 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
               children: <Widget>[
                 Text(
                   'Question cards',
-                  style: TextStyle(color: Color(0xffe43f5a), fontSize: 21),
+                  style: TextStyle(color: color8, fontSize: 30),
                 ),
                 SizedBox(
                   height: 40,
@@ -57,7 +52,7 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                 ShowUp(
                   child: Text(
                     'Choose a topic...',
-                    style: TextStyle(color: Color(0xffe43f5a), fontSize: 21),
+                    style: TextStyle(color: color8, fontSize: 21),
                   ),
                   delay: delayAmount * 2,
                 ),
@@ -72,30 +67,14 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                         children: <Widget>[
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                         ],
@@ -104,30 +83,14 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                         children: <Widget>[
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                         ],
@@ -136,14 +99,14 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                         children: <Widget>[
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                         ],
@@ -152,14 +115,46 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                         children: <Widget>[
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                           Expanded(
                             child: Card(
-                              elevation: 10,
-                              child: Container(height: 90, color: Colors.red),
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Card(
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
+                            ),
+                          ),
+                          Expanded(
+                            child: Card(
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Card(
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
+                            ),
+                          ),
+                          Expanded(
+                            child: Card(
+                              elevation: 2,
+                              child: Container(height: 90, color: color7),
                             ),
                           ),
                         ],

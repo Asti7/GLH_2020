@@ -9,7 +9,7 @@ class LogInSignUpScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: color1,
+      backgroundColor: color7,
       body: Padding(
         padding: EdgeInsets.all(24.0),
         child: Column(
@@ -29,12 +29,12 @@ class LogInSignUpScreen extends StatelessWidget {
                 SizedBox(height: 100),
                 RoundedButton(
                   title: 'Log In',
-                  color: color2,
+                  color: color8,
                   onPressed: () {},
                 ),
                 RoundedButton(
                   title: 'Sign Up',
-                  color: color2,
+                  color: color8,
                   onPressed: () {
                     Navigator.pushNamed(context, WelcomeMessageScreen.id );
                   },

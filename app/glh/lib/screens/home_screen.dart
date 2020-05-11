@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:glh/constants/constants.dart';
+import 'package:glh/screens/forums_page.dart';
 import 'package:glh/screens/login_signup_screen.dart';
 import 'package:glh/screens/question_card_page.dart';
 import 'package:glh/screens/welcom_message_screen.dart';
@@ -13,13 +14,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<Widget> pages = [];
+  List<Widget> pages = [QuestionCardPage(), ForumsPage()];
   Widget page = QuestionCardPage();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: color1,
+      backgroundColor: color7,
       body: Padding(
         padding: const EdgeInsets.fromLTRB(18, 48, 18, 24),
         child: Column(
@@ -30,14 +31,14 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(height: 20),
             Container(
               decoration: BoxDecoration(
-                color: color5,
+                color: color7,
                 borderRadius: BorderRadius.all(
-                  Radius.circular(20.0),
+                  Radius.circular(50.0),
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black,
-                    offset: Offset(0.0, 1.0), //(x,y)
+                    color: Colors.grey,
+                    offset: Offset(2.0, 2.0), //(x,y)
                     blurRadius: 6.0,
                   ),
                 ],
@@ -48,12 +49,20 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: <Widget>[
                   IconButton(
                     icon: Icon(Icons.home),
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        page = pages[0];
+                      });
+                    },
                     splashColor: null,
                   ),
                   IconButton(
                     icon: Icon(Icons.forum),
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        page = pages[1];
+                      });
+                    },
                   ),
                   IconButton(
                     icon: Icon(Icons.message),
