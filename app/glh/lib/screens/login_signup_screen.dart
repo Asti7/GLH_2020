@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:glh/components/rounded_button.dart';
 import 'package:glh/constants/constants.dart';
+import 'package:glh/screens/welcom_message_screen.dart';
 
 class LogInSignUpScreen extends StatelessWidget {
   static const String id = 'login_signup_screen';
@@ -16,6 +17,7 @@ class LogInSignUpScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Column(
+              // crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Hero(
                   tag: 'logo',
@@ -33,7 +35,9 @@ class LogInSignUpScreen extends StatelessWidget {
                 RoundedButton(
                   title: 'Sign Up',
                   color: color2,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, WelcomeMessageScreen.id );
+                  },
                 ),
               ],
             ),

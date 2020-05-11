@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:glh/screens/home_screen.dart';
+
+import 'package:glh/screens/welcom_message_screen.dart';
 import 'screens/login_signup_screen.dart';
 
 void main() => runApp(glhApp());
@@ -10,9 +13,10 @@ class glhApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: LogInSignUpScreen.id,
       routes: {
-        LogInSignUpScreen.id: (context) => LogInSignUpScreen()
+        LogInSignUpScreen.id: (context) => LogInSignUpScreen(),
+        WelcomeMessageScreen.id: (context) => WelcomeMessageScreen(),
+        HomeScreen.id: (context) => HomeScreen()
       },
-      
     );
   }
 }
