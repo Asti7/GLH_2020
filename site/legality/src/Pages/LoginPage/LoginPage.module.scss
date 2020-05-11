@@ -1,0 +1,57 @@
+.login-box{
+    width: 30vw;
+    height: 72.5vh;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.login-box-main-heading{
+    padding: 1rem;
+    .login-box-logo{
+        height: 5rem;
+    }
+}
+
+.login-box-login-options{
+    ul{
+        li{
+            width: 14.75vw;
+            height: 4rem;
+            display: inline;
+        }
+    }
+}
+
+.email-title, .password-title{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 3rem;
+}
+
+.name-title{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.email-secondary-title, .password-secondary-title{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+#login-button{
+    font-size: 1rem;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+#sign-up-button{
+    font-size: 1rem;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+// .password-title{
+//     margin-top: 2rem;
+// }
