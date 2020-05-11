@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:glh/components/rounded_button.dart';
 import 'package:glh/constants/constants.dart';
+import 'package:glh/screens/home_screen.dart';
 
 class WelcomeMessageScreen extends StatelessWidget {
   static const String id = 'welcome_message_screen';
@@ -133,7 +134,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                   title: 'continue',
                   color: color2,
                   onPressed: () {
-
+                    Navigator.pushNamed(context, HomeScreen.id);
                   },
                 ),
               ),
