@@ -80,7 +80,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                             text:
                                 "You can view short legal info in the form of "),
                         TextSpan(
-                          text: "Question cards",
+                          text: "Situation cards",
                           style: TextStyle(color: Color(0xffe43f5a)),
                         )
                       ]),

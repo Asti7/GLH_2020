@@ -33,6 +33,7 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
         ),
       ),
       body: Container(
+        height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
           color: color7,
         ),
@@ -43,11 +44,11 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  'Question cards',
+                  'Situation cards',
                   style: TextStyle(color: color8, fontSize: 30),
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 50,
                 ),
                 ShowUp(
                   child: Text(
@@ -57,106 +58,72 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                   delay: delayAmount * 2,
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 50,
                 ),
                 ShowUp(
                   delay: delayAmount * 3,
                   child: Column(
                     children: <Widget>[
-                      Row(
+                      Column(
                         children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
+                          Row(
+                            children: <Widget>[
+                              MaterialButton(
+                                onPressed: () {},
+                                child: Card(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(20),
+                                  ),
+                                  color: color9,
+                                  elevation: 2,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text('COVID-19'),
+                                  ),
+                                ),
+                              )
+                            ],
                           ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                children: <Widget>[
+                                  MaterialButton(
+                                    onPressed: () {},
+                                    child: Card(
+                                      elevation: 2,
+                                      color: color7,
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Text('Rights and obligations\n'
+                                            'as a residential tenant'),
+                                      ),
+                                    ),
+                                  ),
+                                  Card(
+                                    elevation: 2,
+                                    color: color7,
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Text('Effect of COIVD-19 house\n'
+                                          'and commodity repayments'),
+                                    ),
+                                  ),
+                                  Card(
+                                    elevation: 2,
+                                    child: Container(
+                                        height: 40,
+                                        width:
+                                            MediaQuery.of(context).size.width /
+                                                3,
+                                        color: color7),
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              elevation: 2,
-                              child: Container(height: 90, color: color7),
-                            ),
-                          ),
+                          )
                         ],
                       ),
                     ],
