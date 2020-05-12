@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:glh/components/rounded_button.dart';
 import 'package:glh/constants/constants.dart';
+import 'package:glh/screens/home_screen.dart';
 
 class WelcomeMessageScreen extends StatelessWidget {
   static const String id = 'welcome_message_screen';
@@ -12,7 +13,7 @@ class WelcomeMessageScreen extends StatelessWidget {
     int delayAmount = 500;
 
     return Scaffold(
-      backgroundColor: color1,
+      backgroundColor: color7,
       body: Padding(
         padding: EdgeInsets.all(24.0),
         child: Column(
@@ -25,7 +26,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                 child: Text("Hi,",
                     style: TextStyle(
                       fontSize: 30.0,
-                      color: color3,
+                      color: color8,
                     )),
               ),
               delay: delayAmount,
@@ -36,7 +37,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                 child: Text("Welcome to Legality !",
                     style: TextStyle(
                       fontSize: 30.0,
-                      color: color3,
+                      color: color8,
                     )),
               ),
               delay: delayAmount * 2,
@@ -47,7 +48,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                 child: Text("Your legal query app.",
                     style: TextStyle(
                       fontSize: 30.0,
-                      color: color3,
+                      color: color8,
                     )),
               ),
               delay: delayAmount * 3,
@@ -58,7 +59,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                 child: Hero(
                   tag: 'logo',
                   child: Container(
-                    child: Image.asset('images/logo.png', color: color3),
+                    child: Image.asset('images/logo.png', color: color8),
                     height: 50,
                   ),
                 ),
@@ -72,14 +73,14 @@ class WelcomeMessageScreen extends StatelessWidget {
                   text: TextSpan(
                       style: TextStyle(
                         fontSize: 25.0,
-                        color: color3,
+                        color: color8,
                       ),
                       children: <TextSpan>[
                         TextSpan(
                             text:
                                 "You can view short legal info in the form of "),
                         TextSpan(
-                          text: "Question cards",
+                          text: "Situation cards",
                           style: TextStyle(color: Color(0xffe43f5a)),
                         )
                       ]),
@@ -94,7 +95,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                   text: TextSpan(
                       style: TextStyle(
                         fontSize: 25.0,
-                        color: color3,
+                        color: color8,
                       ),
                       children: <TextSpan>[
                         TextSpan(
@@ -114,7 +115,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                   text: TextSpan(
                       style: TextStyle(
                         fontSize: 25.0,
-                        color: color3,
+                        color: color8,
                       ),
                       children: <TextSpan>[
                         TextSpan(text: "or directly connect with a "),
@@ -131,9 +132,9 @@ class WelcomeMessageScreen extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: 8.0),
                 child: RoundedButton(
                   title: 'continue',
-                  color: color2,
+                  color: color8,
                   onPressed: () {
-
+                    Navigator.pushNamed(context, HomeScreen.id);
                   },
                 ),
               ),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:glh/screens/forums_page.dart';
 import 'package:glh/screens/home_screen.dart';
+import 'package:glh/screens/question_card_search.dart';
 
 import 'package:glh/screens/welcom_message_screen.dart';
 import 'screens/login_signup_screen.dart';
@@ -15,7 +17,9 @@ class glhApp extends StatelessWidget {
       routes: {
         LogInSignUpScreen.id: (context) => LogInSignUpScreen(),
         WelcomeMessageScreen.id: (context) => WelcomeMessageScreen(),
-        HomeScreen.id: (context) => HomeScreen()
+        HomeScreen.id: (context) => HomeScreen(),
+        QuestionCardSearch.id: (context) => QuestionCardSearch(),
+        ForumsPage.id: (context) => ForumsPage()
       },
     );
   }
