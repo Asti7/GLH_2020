@@ -14,6 +14,47 @@ class LoginPage extends Component {
         linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0)`;
     return (
       <>
+        {/* Modal */}
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Success
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                You have successfully logged in / signed up for the website.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Modal */}
         <Header />
         <div className={style["login-page-main-div"]}>
           <div className={style["login-box"]}>
@@ -91,6 +132,7 @@ class LoginPage extends Component {
                     type="button"
                     id={style["login-button"]}
                     class="btn btn-secondary"
+                    data-toggle="modal" data-target="#exampleModal"
                   >
                     LOGIN
                   </button>
@@ -129,7 +171,9 @@ class LoginPage extends Component {
                       }}
                     />
                   </div>
-                  <span className={style["password-secondary-title"]}>PASSWORD</span>
+                  <span className={style["password-secondary-title"]}>
+                    PASSWORD
+                  </span>
                   <div class="input-group input-group-lg">
                     <div class="input-group-prepend"></div>
                     <input
@@ -147,6 +191,7 @@ class LoginPage extends Component {
                     type="button"
                     id={style["sign-up-button"]}
                     class="btn btn-secondary"
+                    data-toggle="modal" data-target="#exampleModal"
                   >
                     SIGN UP
                   </button>
