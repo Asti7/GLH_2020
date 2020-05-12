@@ -14,45 +14,28 @@ class ContactUsPage extends Component {
       <>
         <Header />
         <div className={style["contact-us-page-main-div"]}>
-          <div
-            className={style["contact-us-page-mind-image"]}
-          ></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className={style["contact-us-page-mind-image"]}>
+            <div className={style["contact-us-page-main-heading"]}>
+              Contact Us
+            </div>
+            <div className={style["contact-us-details-div"]}>
+              <div className={style["map-div"]}>
+                <img src={require("../../Assets/Images/map.png")} />
+              </div>
+              <div className={style["location-details-div"]}>
+                <div className={style["heading"]}>Contact Details</div>
+                <div className={style["address"]}>
+                <strong>Address:</strong> 8 Whiteman St, Southbank VIC
+                </div>
+                <div className={style["Phone-number"]}>
+                  <strong>Phone Number:</strong>   (+61) 0470245599
+                </div>
+                <div className={style["fax-number"]}>
+                  <strong>Fax Number:</strong> XXXXXXXXXXX
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <Footer />
       </>
