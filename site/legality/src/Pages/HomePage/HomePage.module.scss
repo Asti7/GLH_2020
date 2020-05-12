@@ -16,9 +16,24 @@
 }
 
 #functionalities-section-card-div{
- border: 1px solid black;
- height: 15rem;
- width: 20rem;
+ height: 17rem;
+ width: 22.5rem;
  font-size: 1.17rem;
  box-shadow: 0 0 0.75rem 0.25rem grey;
+ margin-bottom: 2.2rem;
+
+ #card-heading{
+     font-size: 2rem;
+ }
+
+ #card-para{
+     font-size: 1.25rem;
+     margin: 1rem;
+ }
+ #card-link{
+     color: black;
+     button{
+         font-size: 1rem;
+     }
+ }
 }

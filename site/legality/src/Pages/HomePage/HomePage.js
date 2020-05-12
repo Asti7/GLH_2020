@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import style from "./HomePage.module.scss";
+import { Link } from "react-router-dom";
 
 class HomePage extends Component {
   constructor(props) {
@@ -29,54 +30,49 @@ class HomePage extends Component {
             {/* First Card */}
             <div class="card" id={style["functionalities-section-card-div"]}>
               <div class="card-body">
-                <h5 class="card-title">Forum</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title" id={style["card-heading"]}>
+                  Forum
+                </h5>
+                <p class="card-text" id={style["card-para"]}>
+                  Get your legal queries directly answered from our communitty
+                  of legal professionals for free of cost.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <Link to="/questionnaire" id={style["card-link"]}>
+                <button type="button" class="btn btn-secondary">LEARN MORE</button>
+                </Link>
               </div>
             </div>
             {/* First Card */}
             {/* Second Card */}
             <div class="card" id={style["functionalities-section-card-div"]}>
               <div class="card-body">
-                <h5 class="card-title">Consultancy</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title" id={style["card-heading"]}>
+                  Consultancy
+                </h5>
+
+                <p class="card-text" id={style["card-para"]}>
+                  View, compare and connect with lawyers from our community of legal professionals for your legal mattters.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <Link to="/questionnaire" id={style["card-link"]}>
+                <button type="button" class="btn btn-secondary">LEARN MORE</button>
+                </Link>
               </div>
             </div>
             {/* Second Card */}
             {/* Third Card */}
             <div class="card" id={style["functionalities-section-card-div"]}>
               <div class="card-body">
-                <h5 class="card-title">Legal Accessibility</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 class="card-title" id={style["card-heading"]}>
+                  Legal Accessibility
+                </h5>
+
+                <p class="card-text" id={style["card-para"]}>
+                  We help you in understanding your case better and then
+                  accordingly we connect you with the legal professionals.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <Link to="/questionnaire" id={style["card-link"]}>
+                <button type="button" class="btn btn-secondary">LEARN MORE</button>
+                </Link>
               </div>
             </div>
             {/* Third Card */}

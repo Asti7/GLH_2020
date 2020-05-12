@@ -14,7 +14,9 @@ class Header extends Component {
         <div className={style["header-main-div"]}>
           <div className={style["name-and-logo-div"]}>
             <div className={style["name-div"]}>
-              <Link to="/" style={{color:"black",textDecoration:"none"}}>Legality</Link>
+              <Link to="/" style={{ color: "black", textDecoration: "none" }}>
+                Legality
+              </Link>
             </div>
             <div className={style["logo-div"]}>
               <img
@@ -24,6 +26,9 @@ class Header extends Component {
             </div>
           </div>
           <div className={style["menu-options-div"]}>
+          <div className={style["menu-option"]}>
+              <Link className={style["menu-option-link"]} to="/">HOME</Link>
+            </div>
             <div className={style["menu-option"]}>
               <Link className={style["menu-option-link"]}>FORUM</Link>
             </div>
@@ -31,13 +36,19 @@ class Header extends Component {
               <Link className={style["menu-option-link"]}>CONSULT</Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]}>CONTACT US</Link>
+              <Link className={style["menu-option-link"]} to="/contactus">
+                CONTACT US
+              </Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]}>ABOUT US</Link>
+              <Link className={style["menu-option-link"]} to="/aboutus">
+                ABOUT US
+              </Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]}>LOGIN / SIGN UP</Link>
+              <Link className={style["menu-option-link"]} to="login">
+                LOGIN / SIGN UP
+              </Link>
             </div>
           </div>
         </div>
