@@ -53,7 +53,7 @@ class HomePage extends Component {
                 <p class="card-text" id={style["card-para"]}>
                   View, compare and connect with lawyers from our community of legal professionals for your legal mattters.
                 </p>
-                <Link to="/questionnaire" id={style["card-link"]}>
+                <Link to="/consultancy" id={style["card-link"]}>
                 <button type="button" class="btn btn-secondary">LEARN MORE</button>
                 </Link>
               </div>

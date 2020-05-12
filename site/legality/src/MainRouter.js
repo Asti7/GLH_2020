@@ -5,6 +5,8 @@ import QuestionnairePage from "./Pages/HomePage/QuestionnairePage/QuestionnaireP
 import AboutUsPage from "./Pages/AboutUs/AboutUs";
 import ContactUsPage from "./Pages/ContactUs/ContactUs";
 import LoginPage from "./Pages/LoginPage/LoginPage";
+import PropertyQuestionnaire from "./Pages/HomePage/QuestionnairePage/Property/Property";
+import ConsultancyPage from "./Pages/HomePage/ConsultancyPage/ConsultancyPage";
 
 const MainRouter = () => {
   return (
@@ -19,6 +21,8 @@ const MainRouter = () => {
         <Route exact path="/aboutus" component={AboutUsPage}></Route>
         <Route exact path="/contactus" component={ContactUsPage}></Route>
         <Route exact path="/login" component={LoginPage}></Route>
+        <Route exact path="/property" component={PropertyQuestionnaire}></Route>
+        <Route exact path="/consultancy" component={ConsultancyPage}></Route>
       </Switch>
     </>
   );

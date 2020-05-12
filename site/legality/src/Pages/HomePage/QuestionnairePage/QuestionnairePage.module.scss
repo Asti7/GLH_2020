@@ -21,12 +21,20 @@
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    min-height: 20rem;
 }
 
 #card-selector{
     margin: 2rem;
+    height: 10rem;
     border: 1px solid black;
     box-shadow: 0 0 1rem 0.1rem grey;
+    cursor: pointer;
+    color: black;
+}
+
+.empty-search-result-div{
+    margin: auto;
+    font-size: 3rem;
 }
