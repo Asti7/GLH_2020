@@ -2,8 +2,11 @@ import 'dart:async';
 
 import 'package:flappy_search_bar/flappy_search_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:glh/components/category_section.dart';
+import 'package:glh/components/category_section_situations.dart';
 import 'package:glh/constants/constants.dart';
 import 'package:glh/screens/question_card_search.dart';
+import 'package:glh/screens/situation_model.dart';
 
 class QuestionCardPage extends StatefulWidget {
   static const String id = 'question_card_page';
@@ -62,73 +65,136 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                 ),
                 ShowUp(
                   delay: delayAmount * 3,
-                  child: Column(
-                    children: <Widget>[
-                      Column(
-                        children: <Widget>[
-                          Row(
-                            children: <Widget>[
-                              MaterialButton(
-                                onPressed: () {},
-                                child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(20),
-                                  ),
-                                  color: color9,
-                                  elevation: 2,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text('COVID-19'),
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: SingleChildScrollView(
-                              scrollDirection: Axis.horizontal,
-                              child: Row(
-                                children: <Widget>[
-                                  MaterialButton(
-                                    onPressed: () {},
-                                    child: Card(
-                                      elevation: 2,
-                                      color: color7,
-                                      child: Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Text('Rights and obligations\n'
-                                            'as a residential tenant'),
-                                      ),
-                                    ),
-                                  ),
-                                  Card(
-                                    elevation: 2,
-                                    color: color7,
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Text('Effect of COIVD-19 house\n'
-                                          'and commodity repayments'),
-                                    ),
-                                  ),
-                                  Card(
-                                    elevation: 2,
-                                    child: Container(
-                                        height: 40,
-                                        width:
-                                            MediaQuery.of(context).size.width /
-                                                3,
-                                        color: color7),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          )
-                        ],
+                  child: CatergorySection(
+                    categoryTitle: 'COVID-19',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                        onPressed: () {
+                          Navigator.push(
+                              context, FadeRoute(page: SituationModel()));
+                        },
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
                       ),
                     ],
                   ),
-                )
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Property',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Criminal',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Civil',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Financial',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Intellectual Property',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Terrorism',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
+                ShowUp(
+                  delay: delayAmount * 3,
+                  child: CatergorySection(
+                    categoryTitle: 'Martial',
+                    situations: <Widget>[
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                      Situations(
+                        text: 'Rights and obligations\n'
+                            'as a residential tenant',
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
@@ -189,4 +255,27 @@ class _ShowUpState extends State<ShowUp> with TickerProviderStateMixin {
       opacity: _animController,
     );
   }
+}
+
+class FadeRoute extends PageRouteBuilder {
+  final Widget page;
+  FadeRoute({this.page})
+      : super(
+          pageBuilder: (
+            BuildContext context,
+            Animation<double> animation,
+            Animation<double> secondaryAnimation,
+          ) =>
+              page,
+          transitionsBuilder: (
+            BuildContext context,
+            Animation<double> animation,
+            Animation<double> secondaryAnimation,
+            Widget child,
+          ) =>
+              FadeTransition(
+                opacity: animation,
+                child: child,
+              ),
+        );
 }
