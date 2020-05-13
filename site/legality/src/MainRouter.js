@@ -7,6 +7,7 @@ import ContactUsPage from "./Pages/ContactUs/ContactUs";
 import LoginPage from "./Pages/LoginPage/LoginPage";
 import PropertyQuestionnaire from "./Pages/HomePage/QuestionnairePage/Property/Property";
 import ConsultancyPage from "./Pages/HomePage/ConsultancyPage/ConsultancyPage";
+import LawyerProfile from "./Pages/HomePage/ConsultancyPage/LawyerProfile/LawyerProfile";
 
 const MainRouter = () => {
   return (
@@ -23,6 +24,7 @@ const MainRouter = () => {
         <Route exact path="/login" component={LoginPage}></Route>
         <Route exact path="/property" component={PropertyQuestionnaire}></Route>
         <Route exact path="/consultancy" component={ConsultancyPage}></Route>
+        <Route exact path="/lawyerprofile" component={LawyerProfile}></Route>
       </Switch>
     </>
   );

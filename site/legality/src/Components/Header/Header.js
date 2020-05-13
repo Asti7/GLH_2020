@@ -33,7 +33,7 @@ class Header extends Component {
               <Link className={style["menu-option-link"]}>FORUM</Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]}>CONSULT</Link>
+              <Link className={style["menu-option-link"]} to="/consultancy">CONSULT</Link>
             </div>
             <div className={style["menu-option"]}>
               <Link className={style["menu-option-link"]} to="/contactus">
