@@ -13,17 +13,14 @@ class AboutUsPage extends Component {
     return (
       <>
         <Header />
-
         <div className={style["about-us-page-main-heading"]}>Our Mission</div>
         <div className={style["about-us-page-main-sub-heading"]}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
-        {/* Division Div */}
-        <div className={style["small-division-div"]}></div>
-        <div className={style["large-division-div"]}></div>
-        <div className={style["small-division-div"]}></div>
-        {/* Division Div */}
+        {/* First Parallax Effect */}
+        <div className={style["first-parallax-effect"]}></div>
+        {/* First Parallax Effect */}
         <div className={style["about-us-page-inner-heading"]}>About</div>
         <div className={style["about-us-page-inner-para"]}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,18 +32,15 @@ class AboutUsPage extends Component {
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <div className={style["about-us-page-team-div"]}>
-          {/* Division Div */}
-          <div className={style["small-division-div"]}></div>
-          <div className={style["large-division-div"]}></div>
-          <div className={style["small-division-div"]}></div>
-          {/* Division Div */}
+          {/* Second Parallax Effect */}
+          <div className={style["second-parallax-effect"]}></div>
+          {/* Second Parallax Effect */}
 
           <div className={style["team-div-heading"]}>Leadership</div>
           <div className={style["team-div-card-section"]}>
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
               id={style["about-us-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -57,19 +51,15 @@ class AboutUsPage extends Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+               <div>
+               <i class="fas fa-at"></i> asar0011@student.monash.edu
+               </div>
               </div>
             </div>
             {/* Single Card */}
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
               id={style["about-us-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -80,19 +70,13 @@ class AboutUsPage extends Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <i class="fas fa-at"></i> asar0011@student.monash.edu
               </div>
             </div>
             {/* Single Card */}
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
               id={style["about-us-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -103,19 +87,13 @@ class AboutUsPage extends Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <i class="fas fa-at"></i> asar0011@student.monash.edu
               </div>
             </div>
             {/* Single Card */}
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
               id={style["about-us-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -126,12 +104,7 @@ class AboutUsPage extends Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">
-                  Card link
-                </a>
-                <a href="#" class="card-link">
-                  Another link
-                </a>
+                <i class="fas fa-at"></i> asar0011@student.monash.edu
               </div>
             </div>
             {/* Single Card */}

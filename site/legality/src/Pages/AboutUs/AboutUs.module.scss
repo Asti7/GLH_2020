@@ -8,6 +8,7 @@
     font-size: 1.75rem;
     width: 90vw;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 // Our Mission Section Rules
@@ -21,7 +22,7 @@
 .about-us-page-inner-para{
     font-size: 1.75rem;
     width: 90vw;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 // About Us Section
@@ -30,6 +31,7 @@
 
 .team-div-heading{
     font-size: 3.5rem;
+    margin-top: 1rem;
 }
 
 .team-div-card-section{
@@ -41,7 +43,14 @@
 
 #about-us-page-card{
     padding-top: 1rem;
-    margin: 2rem;
+    margin: 1.5rem;
+    width: 19rem;
+    border: 2px solid black;
+    #linkedin-icon{
+        display: block;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
 }
 
 #user-icon{
@@ -50,18 +59,20 @@
 
 // Team Section Rules
 
-// Division Divs Rules
+// Parallax Effect Rules
 
-.large-division-div{
-    border: 1px solid black;
-    width: 50vw;
-    margin: 0.5rem auto;
+.first-parallax-effect{
+    height: 15rem;
+    background: url(../../Assets/Images/teamWork.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.small-division-div{
-    border: 1px solid black;
-    width: 25vw;
-    margin: 0.5rem auto;
+.second-parallax-effect{
+    height: 20rem;
+    background: url(../../Assets/Images/nightSky.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-// Division Divs Rules
+// Parallax Effect Rules
