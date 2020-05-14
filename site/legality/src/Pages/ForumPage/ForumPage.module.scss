@@ -1,0 +1,151 @@
+.forum-page-heading {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5rem;
+    font-size: 4rem;
+}
+
+.create-post-div {
+    width: 95vw;
+    margin: auto;
+    border: 2px solid black;
+    padding: 1rem;
+    padding-top: 3rem;
+    border-radius: 2rem;
+
+    #create-post-field {
+        background-image: linear-gradient(0deg, black 2px, rgba(0, 150, 136, 0) 0),
+            linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+    }
+
+    .create-post-button-div {
+        display: flex;
+        flex-direction: row-reverse;
+
+        #create-post-div-button {
+            margin: 0 0.5rem;
+            margin-top: 1rem;
+            border-radius: 1rem;
+        }
+    }
+}
+
+.single-post-selector {
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 95vw;
+    margin: 1rem auto;
+
+    .post-poster-div {
+        display: flex;
+
+        #poster-image {
+            font-size: 2.5rem;
+        }
+
+        .poster-name {
+            font-size: 1.5rem;
+            position: relative;
+            top: 0.1rem;
+            padding-left: 1rem;
+        }
+    }
+
+    .post-content-div {
+        .post-question {
+            display: flex;
+            font-size: 2rem;
+
+            #post-question-bullet-point {
+                font-size: 0.75rem;
+                padding: 1rem;
+                padding-top: 1.2rem;
+            }
+
+        }
+
+        .post-text-div {
+            font-size: 1.25rem;
+            padding: 1rem;
+            padding-left: 2.75rem;
+            text-align: left;
+        }
+
+        .comment-section {
+            .create-comment-section {
+                border: 2px solid black;
+                padding: 1rem;
+                padding-top: 1.5rem;
+                border-radius: 2rem;
+                margin: 0 2rem;
+
+                #add-comment-field {
+                    background-image: linear-gradient(0deg, black 2px, rgba(0, 150, 136, 0) 0),
+                        linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0);
+                }
+
+                #add-comment-button {
+                    border-radius: 2rem;
+                    margin-left: 1rem;
+                    position: relative;
+                    top: 0.5rem;
+                }
+            }
+
+            .list-comments-div {
+                border: 2px solid black;
+                padding: 0.5rem;
+                border-radius: 2rem;
+                margin: 1rem 2rem;
+
+                .list-comment-heading {
+                    display: flex;
+                    font-size: 2rem;
+                    padding: 0 1rem;
+                }
+
+                .single-comment {
+                    margin: 0.5rem 1rem;
+                    border: 2px solid black;
+                    border-radius: 2rem;
+                    padding: 1rem;
+
+                    .commenter-info {
+                        display: flex;
+
+                        #commenter-image {
+                            padding: 0 1rem;
+                            font-size: 2rem;
+                        }
+
+                        .commenter-name {
+                            position: relative;
+                            bottom: 0.1rem;
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    .comment-content {
+                        text-align: left;
+                        padding-left: 1rem;
+                        padding-top: 0.5rem;
+                        font-size: 1rem;
+                    }
+
+                    .comment-option-button {
+                        padding-top: 0.5rem;
+                        display: flex;
+                        flex-direction: row-reverse;
+
+                        #comment-section-button {
+                            margin: 0 0.5rem;
+                            border-radius: 1rem;
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
