@@ -37,7 +37,7 @@ class HomePage extends Component {
                   Get your legal queries directly answered from our communitty
                   of legal professionals for free of cost.
                 </p>
-                <Link to="/questionnaire" id={style["card-link"]}>
+                <Link to="/forum" id={style["card-link"]}>
                 <button type="button" class="btn btn-secondary">LEARN MORE</button>
                 </Link>
               </div>

@@ -106,3 +106,34 @@
         padding: 0.5rem;
     }
 }
+
+#queries-section{
+    border: 2px solid black;
+    border-radius: 2rem;
+    .queries-section-heading{
+        font-size: 2rem;
+        padding-top: 0.5rem;
+        border-bottom: 2px solid black;
+    }
+    .queries-listing-section{
+        margin: 1rem 0;
+        padding: 0 1rem;
+        height: 30rem;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        #query-selector{
+            margin: 1rem 0;
+            min-height: 5rem;
+            cursor: pointer;
+            text-align: left;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#lawyer-profile-grid-section{
+    height: 34rem;
+}

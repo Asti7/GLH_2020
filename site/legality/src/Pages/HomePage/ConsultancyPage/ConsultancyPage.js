@@ -30,6 +30,7 @@ class consultancyPage extends Component {
               data-role="tagsinput"
               id={style["search-bar-field"]}
             />
+            {/* <i id={style["filter-icon"]} class="fas fa-filter"></i> */}
           </div>
           <div className={style["consultancy-page-card-section"]}>
             {/* Single Card */}
@@ -71,13 +72,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
@@ -121,13 +122,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
@@ -171,13 +172,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
@@ -221,13 +222,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
@@ -271,13 +272,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
@@ -321,13 +322,13 @@ class consultancyPage extends Component {
                   Martial
                 </span>
                 <Link to="/lawyerprofile">
-                <button
-                  id={style["consultancy-page-card-button"]}
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  View Profile
-                </button>
+                  <button
+                    id={style["consultancy-page-card-button"]}
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    View Profile
+                  </button>
                 </Link>
               </div>
             </div>
