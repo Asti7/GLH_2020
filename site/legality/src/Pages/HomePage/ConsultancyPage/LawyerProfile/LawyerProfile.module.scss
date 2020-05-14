@@ -127,6 +127,8 @@
             min-height: 5rem;
             cursor: pointer;
             text-align: left;
+            border: 1px solid black;
+            border-radius: 1rem;
             &:hover{
                 text-decoration: underline;
             }
