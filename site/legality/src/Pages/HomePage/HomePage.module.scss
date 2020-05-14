@@ -1,39 +1,179 @@
-.functionalities-div-main-heading{
+.functionalities-div-main-heading {
     font-size: 4rem;
 }
 
-.functionalities-div-sub-heading{
+.functionalities-div-sub-heading {
     width: 90vw;
     margin: auto;
     margin-top: 1rem;
     font-size: 2rem;
 }
 
-.functionalities-div-card-section{
+.functionalities-div-card-section {
     padding-top: 5rem;
     display: flex;
     justify-content: space-around;
 }
 
-#functionalities-section-card-div{
- height: 17rem;
- width: 22.5rem;
- font-size: 1.17rem;
- box-shadow: 0 0 0.75rem 0.25rem grey;
- margin-bottom: 2.2rem;
+#functionalities-section-card-div {
+    height: 17rem;
+    width: 22.5rem;
+    font-size: 1.17rem;
+    box-shadow: 0 0 0.75rem 0.25rem grey;
+    margin-bottom: 4rem;
 
- #card-heading{
-     font-size: 2rem;
- }
+    #card-heading {
+        font-size: 2rem;
+    }
 
- #card-para{
-     font-size: 1.25rem;
-     margin: 1rem;
- }
- #card-link{
-     color: black;
-     button{
-         font-size: 1rem;
-     }
- }
+    #card-para {
+        font-size: 1.25rem;
+        margin: 1rem;
+    }
+
+    #card-link {
+        color: black;
+
+        button {
+            font-size: 1rem;
+        }
+    }
 }
+
+// Landing Page Section
+
+.landing-page {
+    height: 100vh;
+    background: url(../../Assets/Images/melboureBright.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .landing-page-text {
+        font-size: 4rem;
+        margin: auto;
+        position: relative;
+        top: 17.5rem;
+        color: white;
+    }
+}
+
+.why-legality-section {
+    height: 70vh;
+
+    .why-legality-section-heading {
+        font-size: 4rem;
+    }
+
+    .why-legality-section-content {
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+}
+
+// Landing Page Section
+
+// Rules for the second parallax effect section
+
+.second-parallax-effect {
+    height: 100vh;
+    background: url(../../Assets/Images/flindersStation.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .second-parallax-effect-content {
+        font-size: 4rem;
+        margin: auto;
+        position: relative;
+        top: 20rem;
+        color: white;
+
+        .quote {
+            margin: 0 0.9rem;
+
+            #opening-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+                padding-right: 0.5rem;
+            }
+
+            #closing-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+            }
+        }
+
+        .citation {
+            font-size: 3rem;
+        }
+    }
+}
+
+// Rules for the second parallax effect section
+
+// Third Parallax Effect Section
+
+.third-parallax-effect {
+    height: 100vh;
+    background: url(../../Assets/Images/melbourneNightSky.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .content{
+        font-size: 4rem;
+        margin: auto;
+        position: relative;
+        top: 17.5rem;
+        color: white;
+        .quote {
+            margin: 0 0.9rem;
+    
+            #opening-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+                padding-right: 0.5rem;
+            }
+    
+            #closing-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+            }
+        }
+    
+        .citation {
+            font-size: 3rem;
+        }
+    }
+}
+
+// Third Parallax Effect Section
+
+// Testinomial Section
+
+.testinomial-section{
+    margin: 1rem 0;
+    .testinomial-section-heading{
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+    }
+    .testinomial-user-details{
+        margin: 1rem 0;
+        #testinomial-user-icon{
+            font-size: 7rem;
+        }
+        .testinomial-user-name{
+            font-size: 2rem;
+            padding: 0.5rem ;
+        }
+    }
+    .testinomial-content{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+}
+
+// Testinomial Section
