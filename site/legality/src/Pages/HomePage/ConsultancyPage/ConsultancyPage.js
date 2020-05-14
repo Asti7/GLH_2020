@@ -22,6 +22,7 @@ class consultancyPage extends Component {
             Search lawyers by their field of expertise:
           </div>
           <div className={style["serach-field-div"]}>
+            <div className={style["search-field-selector"]}>
             <input
               class="form-control"
               aria-label="Large"
@@ -30,13 +31,13 @@ class consultancyPage extends Component {
               data-role="tagsinput"
               id={style["search-bar-field"]}
             />
-            {/* <i id={style["filter-icon"]} class="fas fa-filter"></i> */}
+            </div>
+            <i id={style["filter-icon"]} class="fas fa-filter"></i>
           </div>
           <div className={style["consultancy-page-card-section"]}>
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -86,7 +87,7 @@ class consultancyPage extends Component {
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
+            
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -136,7 +137,7 @@ class consultancyPage extends Component {
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
+             
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -186,7 +187,7 @@ class consultancyPage extends Component {
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
+            
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -236,7 +237,7 @@ class consultancyPage extends Component {
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
+              
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>
@@ -286,7 +287,7 @@ class consultancyPage extends Component {
             {/* Single Card */}
             <div
               class="card"
-              style={{ width: "18rem" }}
+             
               id={style["consultancy-page-card"]}
             >
               <i class="fas fa-user-circle" id={style["user-icon"]}></i>

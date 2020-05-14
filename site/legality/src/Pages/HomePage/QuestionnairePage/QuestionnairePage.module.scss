@@ -6,10 +6,22 @@
     font-size: 2rem;
 }
 
+.search-bar-functionality{
+    display: flex;
+    justify-content: center;
+}
+
 #search-bar-field-selector {
     width: 30rem;
     margin: auto;
     margin-top: 1rem;
+}
+
+#filter-icon{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    top: 3.5rem;
 }
 
 #search-bar-field {

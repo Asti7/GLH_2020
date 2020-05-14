@@ -1,8 +1,17 @@
+.login-page-main-div{
+    background: url(../../Assets/Images/blackAndWhite.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 6rem;
+}
+
 .login-box{
     width: 30vw;
     height: 72.5vh;
     margin: auto;
     border: 2px solid black;
+    background-color: white;
 }
 
 .login-box-main-heading{

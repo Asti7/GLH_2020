@@ -9,6 +9,11 @@
 .serach-field-div {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+
+    .search-field-selector{
+        margin-top: 2rem;
+    }
 
     #search-bar-field {
         background-image: linear-gradient(0deg, black 2px, rgba(0, 150, 136, 0) 0),
@@ -19,6 +24,8 @@
     #filter-icon {
         font-size: 1.5rem;
         margin-left: 2rem;
+        position: relative;
+        top: 2rem;
     }
 
 }
@@ -33,8 +40,9 @@
 
 #consultancy-page-card {
     padding-top: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     border: 2px solid black;
+    width: 20rem;
 }
 
 #user-icon {

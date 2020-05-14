@@ -69,7 +69,6 @@ class QuestionnairePage extends Component {
               class="input-group input-group-lg"
               id={style["search-bar-field-selector"]}
             >
-              <div class="input-group-prepend"></div>
               <input
                 type="text"
                 class="form-control"
@@ -80,6 +79,7 @@ class QuestionnairePage extends Component {
                 onChange={this.processSearchBarInput}
               />
             </div>
+            <i id={style["filter-icon"]} class="fas fa-filter"></i>
           </div>
           <div className={style["questionnaire-page-card-section"]}>
             { this.state.filteredList.length > 0 ?
