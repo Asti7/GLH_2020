@@ -1,4 +1,4 @@
-.login-page-main-div{
+.login-page-main-div {
     background: url(../../Assets/Images/blackAndWhite.jpeg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -6,7 +6,7 @@
     padding-top: 6rem;
 }
 
-.login-box{
+.login-box {
     width: 30vw;
     height: 72.5vh;
     margin: auto;
@@ -14,16 +14,17 @@
     background-color: white;
 }
 
-.login-box-main-heading{
+.login-box-main-heading {
     padding: 1rem;
-    .login-box-logo{
+
+    .login-box-logo {
         height: 5rem;
     }
 }
 
-.login-box-login-options{
-    ul{
-        li{
+.login-box-login-options {
+    ul {
+        li {
             width: 14.75vw;
             height: 4rem;
             display: inline;
@@ -31,31 +32,40 @@
     }
 }
 
-.email-title, .password-title{
+a[aria-controls="home"], a[aria-controls="profile"]{
+    &:hover{
+        font-weight: bolder;
+        color: black;
+    }
+}
+
+.email-title,
+.password-title {
     display: flex;
     padding-left: 1rem;
     margin-top: 3rem;
 }
 
-.name-title{
+.name-title {
     display: flex;
     padding-left: 1rem;
     margin-top: 1rem;
 }
 
-.email-secondary-title, .password-secondary-title{
+.email-secondary-title,
+.password-secondary-title {
     display: flex;
     padding-left: 1rem;
     margin-top: 2rem;
 }
 
-#login-button{
+#login-button {
     font-size: 1rem;
     margin: 1rem;
     margin-top: 4rem;
 }
 
-#sign-up-button{
+#sign-up-button {
     font-size: 1rem;
     margin: 1rem;
     margin-top: 3rem;

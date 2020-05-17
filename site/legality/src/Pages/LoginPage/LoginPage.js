@@ -132,7 +132,8 @@ class LoginPage extends Component {
                     type="button"
                     id={style["login-button"]}
                     class="btn btn-secondary"
-                    data-toggle="modal" data-target="#exampleModal"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
                   >
                     LOGIN
                   </button>
@@ -191,7 +192,8 @@ class LoginPage extends Component {
                     type="button"
                     id={style["sign-up-button"]}
                     class="btn btn-secondary"
-                    data-toggle="modal" data-target="#exampleModal"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
                   >
                     SIGN UP
                   </button>

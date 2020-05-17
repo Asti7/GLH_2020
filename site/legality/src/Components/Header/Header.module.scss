@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
+    padding-top: 0.25rem;
 }
 
 // Name and Logo Div
@@ -41,9 +42,15 @@
 
 .menu-option-link{
     color:  black;
+    padding: 0.5rem 0.5rem;
     text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
     &:hover{
         text-decoration: underline;
+        background-color: black;
+        color: white;
+        box-shadow: 0 0 1rem 0.25rem grey;
     }
 }
 

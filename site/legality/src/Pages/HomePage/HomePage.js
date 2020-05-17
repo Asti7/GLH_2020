@@ -12,12 +12,14 @@ class HomePage extends Component {
 
   render() {
     return (
-      <>
+      <div className={style["home-page-main-div"]}>
         {/* Landing Page */}
         <div className={style["landing-page"]}>
           <Header />
           <div className={style["landing-page-text"]}>
+            <span>
             Your only avenue for all your legal queries.
+            </span>
           </div>
         </div>
         {/* Landing Page */}
@@ -41,10 +43,11 @@ class HomePage extends Component {
         <div className={style["second-parallax-effect"]}>
           <div className={style["second-parallax-effect-content"]}>
             <div className={style["quote"]}>
+              <span>
             <i id={style["opening-quotation-mark"]} class="fas fa-quote-left"></i>Injustice anywhere is a threat to justice everywhere.
-            <i id={style["closing-quotation-mark"]} class="fas fa-quote-right"></i>
+            <i id={style["closing-quotation-mark"]} class="fas fa-quote-right"></i></span>
             </div>
-            <div className={style["citation"]}>- Martin Luther king Jr.</div>
+            <div className={style["citation"]}><span>- Martin Luther king Jr.</span></div>
           </div>
         </div>
         {/* Second Parallax Scrolling Effect */}
@@ -194,7 +197,7 @@ class HomePage extends Component {
           </div>
         {/* Testinomials Section */}
         <Footer />
-      </>
+      </div>
     );
   }
 }

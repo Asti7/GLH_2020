@@ -1,3 +1,7 @@
+.home-page-main-div{
+    overflow-x: hidden;
+}
+
 .functionalities-div-main-heading {
     font-size: 4rem;
 }
@@ -120,29 +124,30 @@
     background-size: cover;
     background-attachment: fixed;
 
-    .content{
+    .content {
         font-size: 4rem;
         margin: auto;
         position: relative;
         top: 17.5rem;
         color: white;
+
         .quote {
             margin: 0 0.9rem;
-    
+
             #opening-quotation-mark {
                 font-size: 1.5rem;
                 position: relative;
                 bottom: 2rem;
                 padding-right: 0.5rem;
             }
-    
+
             #closing-quotation-mark {
                 font-size: 1.5rem;
                 position: relative;
                 bottom: 2rem;
             }
         }
-    
+
         .citation {
             font-size: 3rem;
         }
@@ -153,24 +158,29 @@
 
 // Testinomial Section
 
-.testinomial-section{
+.testinomial-section {
     margin: 1rem 0;
-    .testinomial-section-heading{
+
+    .testinomial-section-heading {
         display: flex;
         justify-content: center;
         font-size: 3rem;
     }
-    .testinomial-user-details{
+
+    .testinomial-user-details {
         margin: 1rem 0;
-        #testinomial-user-icon{
+
+        #testinomial-user-icon {
             font-size: 7rem;
         }
-        .testinomial-user-name{
+
+        .testinomial-user-name {
             font-size: 2rem;
-            padding: 0.5rem ;
+            padding: 0.5rem;
         }
     }
-    .testinomial-content{
+
+    .testinomial-content {
         font-size: 1.5rem;
         padding: 0.5rem;
     }
