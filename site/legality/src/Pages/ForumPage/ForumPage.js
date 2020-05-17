@@ -16,10 +16,10 @@ class ForumPage extends Component {
         <div className={style["forum-page-main-div"]}>
           <div className={style["forum-page-heading"]}>Forum</div>
           <div className={style["create-post-div"]}>
-            <div class="input-group input-group-lg">
+            <div className="input-group input-group-lg">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 aria-label="Large"
                 aria-describedby="inputGroup-sizing-sm"
                 placeholder="Create Post"
@@ -30,21 +30,21 @@ class ForumPage extends Component {
               <button
                 type="button"
                 id={style["create-post-div-button"]}
-                class="btn btn-outline-dark"
+                className="btn btn-outline-dark"
               >
                 Create
               </button>
               <button
                 type="button"
                 id={style["create-post-div-button"]}
-                class="btn btn-outline-dark"
+                className="btn btn-outline-dark"
               >
                 Upload
               </button>
               <button
                 type="button"
                 id={style["create-post-div-button"]}
-                class="btn btn-outline-dark"
+                className="btn btn-outline-dark"
               >
                 Cancel
               </button>
@@ -54,14 +54,14 @@ class ForumPage extends Component {
             {/* Single Post */}
             <div className={style["single-post-selector"]}>
               <div className={style["post-poster-div"]}>
-                <i id={style["poster-image"]} class="fas fa-user-circle"></i>
+                <i id={style["poster-image"]} className="fas fa-user-circle"></i>
                 <span className={style["poster-name"]}>Anmol Sarraf</span>
               </div>
               <div className={style["post-content-div"]}>
                 <div className={style["post-question"]}>
                   <i
                     id={style["post-question-bullet-point"]}
-                    class="fas fa-circle"
+                    className="fas fa-circle"
                   ></i>
                   <span className={style["question"]}>
                     My employer fired me without giving me any advance notice ?
@@ -79,10 +79,10 @@ class ForumPage extends Component {
                 </div>
                 <div className={style["comment-section"]}>
                   <div className={style["create-comment-section"]}>
-                    <div class="input-group input-group-sm mb-3">
+                    <div className="input-group input-group-sm mb-3">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         aria-label="Small"
                         aria-describedby="inputGroup-sizing-sm"
                         placeholder="Add Comment"
@@ -91,7 +91,7 @@ class ForumPage extends Component {
                       <button
                         id={style["add-comment-button"]}
                         type="button"
-                        class="btn btn-outline-dark"
+                        className="btn btn-outline-dark"
                       >
                         Comment
                       </button>
@@ -106,7 +106,7 @@ class ForumPage extends Component {
                       <div className={style["commenter-info"]}>
                         <i
                           id={style["commenter-image"]}
-                          class="fas fa-user-circle"
+                          className="fas fa-user-circle"
                         ></i>
                         <span className={style["commenter-name"]}>
                           Harvey Copper
@@ -127,14 +127,14 @@ class ForumPage extends Component {
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Report
                         </button>
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Reply
                         </button>
@@ -146,7 +146,7 @@ class ForumPage extends Component {
                       <div className={style["commenter-info"]}>
                         <i
                           id={style["commenter-image"]}
-                          class="fas fa-user-circle"
+                          className="fas fa-user-circle"
                         ></i>
                         <span className={style["commenter-name"]}>
                           Aman Sharma
@@ -167,14 +167,14 @@ class ForumPage extends Component {
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Report
                         </button>
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Reply
                         </button>
@@ -189,14 +189,14 @@ class ForumPage extends Component {
             {/* Single Post */}
             <div className={style["single-post-selector"]}>
               <div className={style["post-poster-div"]}>
-                <i id={style["poster-image"]} class="fas fa-user-circle"></i>
+                <i id={style["poster-image"]} className="fas fa-user-circle"></i>
                 <span className={style["poster-name"]}>Jessica James</span>
               </div>
               <div className={style["post-content-div"]}>
                 <div className={style["post-question"]}>
                   <i
                     id={style["post-question-bullet-point"]}
-                    class="fas fa-circle"
+                    className="fas fa-circle"
                   ></i>
                   <span className={style["question"]}>
                     My university increased my fees without any prior notice ?
@@ -214,10 +214,10 @@ class ForumPage extends Component {
                 </div>
                 <div className={style["comment-section"]}>
                   <div className={style["create-comment-section"]}>
-                    <div class="input-group input-group-sm mb-3">
+                    <div className="input-group input-group-sm mb-3">
                       <input
                         type="text"
-                        class="form-control"
+                        className="form-control"
                         aria-label="Small"
                         aria-describedby="inputGroup-sizing-sm"
                         placeholder="Add Comment"
@@ -226,7 +226,7 @@ class ForumPage extends Component {
                       <button
                         id={style["add-comment-button"]}
                         type="button"
-                        class="btn btn-outline-dark"
+                        className="btn btn-outline-dark"
                       >
                         Comment
                       </button>
@@ -241,7 +241,7 @@ class ForumPage extends Component {
                       <div className={style["commenter-info"]}>
                         <i
                           id={style["commenter-image"]}
-                          class="fas fa-user-circle"
+                          className="fas fa-user-circle"
                         ></i>
                         <span className={style["commenter-name"]}>
                           Brett Lee
@@ -262,14 +262,14 @@ class ForumPage extends Component {
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Report
                         </button>
                         <button
                           id={style["comment-section-button"]}
                           type="button"
-                          class="btn btn-outline-dark"
+                          className="btn btn-outline-dark"
                         >
                           Reply
                         </button>

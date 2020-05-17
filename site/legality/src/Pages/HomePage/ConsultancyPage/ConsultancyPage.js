@@ -24,7 +24,7 @@ class consultancyPage extends Component {
           <div className={style["serach-field-div"]}>
             <div className={style["search-field-selector"]}>
             <input
-              class="form-control"
+              className="form-control"
               aria-label="Large"
               aria-describedby="inputGroup-sizing-sm"
               placeholder="Search"
@@ -32,43 +32,43 @@ class consultancyPage extends Component {
               id={style["search-bar-field"]}
             />
             </div>
-            <i id={style["filter-icon"]} class="fas fa-filter"></i>
+            <i id={style["filter-icon"]} className="fas fa-filter"></i>
           </div>
           <div className={style["consultancy-page-card-section"]}>
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">James Harbour</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">James Harbour</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -76,7 +76,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>
@@ -86,39 +86,39 @@ class consultancyPage extends Component {
             {/* Single Card */}
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
             
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">Tony Stark</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">Tony Stark</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -126,7 +126,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>
@@ -136,39 +136,39 @@ class consultancyPage extends Component {
             {/* Single Card */}
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
              
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">James Gils</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">James Gils</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -176,7 +176,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>
@@ -186,39 +186,39 @@ class consultancyPage extends Component {
             {/* Single Card */}
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
             
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">Claud Gray</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">Claud Gray</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -226,7 +226,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>
@@ -236,39 +236,39 @@ class consultancyPage extends Component {
             {/* Single Card */}
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
               
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">Lex Luthour</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">Lex Luthour</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -276,7 +276,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>
@@ -286,39 +286,39 @@ class consultancyPage extends Component {
             {/* Single Card */}
             {/* Single Card */}
             <div
-              class="card"
+              className="card"
              
               id={style["consultancy-page-card"]}
             >
-              <i class="fas fa-user-circle" id={style["user-icon"]}></i>
-              <div class="card-body">
-                <h5 class="card-title">Jay Kapur</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
-                <p class="card-text">
+              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <div className="card-body">
+                <h5 className="card-title">Jay Kapur</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Civil
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Covid 19
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Employment
                 </span>
                 <span
                   id={style["card-tags"]}
-                  class="badge badge-pill badge-dark"
+                  className="badge badge-pill badge-dark"
                 >
                   Martial
                 </span>
@@ -326,7 +326,7 @@ class consultancyPage extends Component {
                   <button
                     id={style["consultancy-page-card-button"]}
                     type="button"
-                    class="btn btn-outline-dark"
+                    className="btn btn-outline-dark"
                   >
                     View Profile
                   </button>

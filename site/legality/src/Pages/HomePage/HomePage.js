@@ -44,8 +44,8 @@ class HomePage extends Component {
           <div className={style["second-parallax-effect-content"]}>
             <div className={style["quote"]}>
               <span>
-            <i id={style["opening-quotation-mark"]} class="fas fa-quote-left"></i>Injustice anywhere is a threat to justice everywhere.
-            <i id={style["closing-quotation-mark"]} class="fas fa-quote-right"></i></span>
+            <i id={style["opening-quotation-mark"]} className="fas fa-quote-left"></i>Injustice anywhere is a threat to justice everywhere.
+            <i id={style["closing-quotation-mark"]} className="fas fa-quote-right"></i></span>
             </div>
             <div className={style["citation"]}><span>- Martin Luther king Jr.</span></div>
           </div>
@@ -65,17 +65,17 @@ class HomePage extends Component {
           </div>
           <div className={style["functionalities-div-card-section"]}>
             {/* First Card */}
-            <div class="card" id={style["functionalities-section-card-div"]}>
-              <div class="card-body">
-                <h5 class="card-title" id={style["card-heading"]}>
+            <div className="card" id={style["functionalities-section-card-div"]}>
+              <div className="card-body">
+                <h5 className="card-title" id={style["card-heading"]}>
                   Forum
                 </h5>
-                <p class="card-text" id={style["card-para"]}>
+                <p className="card-text" id={style["card-para"]}>
                   Get your legal queries directly answered from our communitty
                   of legal professionals for free of cost.
                 </p>
                 <Link to="/forum" id={style["card-link"]}>
-                  <button type="button" class="btn btn-secondary">
+                  <button type="button" className="btn btn-secondary">
                     LEARN MORE
                   </button>
                 </Link>
@@ -83,18 +83,18 @@ class HomePage extends Component {
             </div>
             {/* First Card */}
             {/* Second Card */}
-            <div class="card" id={style["functionalities-section-card-div"]}>
-              <div class="card-body">
-                <h5 class="card-title" id={style["card-heading"]}>
+            <div className="card" id={style["functionalities-section-card-div"]}>
+              <div className="card-body">
+                <h5 className="card-title" id={style["card-heading"]}>
                   Consultancy
                 </h5>
 
-                <p class="card-text" id={style["card-para"]}>
+                <p className="card-text" id={style["card-para"]}>
                   View, compare and connect with lawyers from our community of
                   legal professionals for your legal mattters.
                 </p>
                 <Link to="/consultancy" id={style["card-link"]}>
-                  <button type="button" class="btn btn-secondary">
+                  <button type="button" className="btn btn-secondary">
                     LEARN MORE
                   </button>
                 </Link>
@@ -102,18 +102,18 @@ class HomePage extends Component {
             </div>
             {/* Second Card */}
             {/* Third Card */}
-            <div class="card" id={style["functionalities-section-card-div"]}>
-              <div class="card-body">
-                <h5 class="card-title" id={style["card-heading"]}>
-                  Legal Accessibility
+            <div className="card" id={style["functionalities-section-card-div"]}>
+              <div className="card-body">
+                <h5 className="card-title" id={style["card-heading"]}>
+                  Flowcharts
                 </h5>
 
-                <p class="card-text" id={style["card-para"]}>
+                <p className="card-text" id={style["card-para"]}>
                   We help you in understanding your case better and then
                   accordingly we connect you with the legal professionals.
                 </p>
                 <Link to="/questionnaire" id={style["card-link"]}>
-                  <button type="button" class="btn btn-secondary">
+                  <button type="button" className="btn btn-secondary">
                     LEARN MORE
                   </button>
                 </Link>
@@ -127,8 +127,8 @@ class HomePage extends Component {
         <div className={style["third-parallax-effect"]}>
           <div className={style["content"]}>
             <div className={style["quote"]}>
-            <i id={style["opening-quotation-mark"]} class="fas fa-quote-left"></i>A law is valuable, not because it is a law, but because there is right in it.
-            <i id={style["closing-quotation-mark"]} class="fas fa-quote-right"></i></div>
+            <i id={style["opening-quotation-mark"]} className="fas fa-quote-left"></i>A law is valuable, not because it is a law, but because there is right in it.
+            <i id={style["closing-quotation-mark"]} className="fas fa-quote-right"></i></div>
             <div className={style["citation"]}>- Henry Ward Beecher</div>
           </div>
         </div>
@@ -140,19 +140,19 @@ class HomePage extends Component {
             </div>
             <div className={style["testinomial-content"]}>
               {/* Single Testimonial */}
-              <div class="row">
-                <div class="col-2">
+              <div className="row">
+                <div className="col-2">
                   <div className={style["testinomial-user-details"]}>
                     <i
                       id={style["testinomial-user-icon"]}
-                      class="fas fa-user-circle"
+                      className="fas fa-user-circle"
                     ></i>
                     <p className={style["testinomial-user-name"]}>
                       Kate Holmes
                     </p>
                   </div>
                 </div>
-                <div class="col-10">
+                <div className="col-10">
                   <div className={style["testinomial-content"]}>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -167,19 +167,19 @@ class HomePage extends Component {
               </div>
               {/* Single Testimonial */}
               {/* Single Testimonial */}
-              <div class="row">
-                <div class="col-2">
+              <div className="row">
+                <div className="col-2">
                   <div className={style["testinomial-user-details"]}>
                     <i
                       id={style["testinomial-user-icon"]}
-                      class="fas fa-user-circle"
+                      className="fas fa-user-circle"
                     ></i>
                     <p className={style["testinomial-user-name"]}>
                       Sandra Gray
                     </p>
                   </div>
                 </div>
-                <div class="col-10">
+                <div className="col-10">
                   <div className={style["testinomial-content"]}>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -196,6 +196,16 @@ class HomePage extends Component {
             </div>
           </div>
         {/* Testinomials Section */}
+               {/* Fourth Parallax Effect Section */}
+               <div className={style["fourth-parallax-effect"]}>
+          <div className={style["content"]}>
+            <div className={style["quote"]}>
+            <i id={style["opening-quotation-mark"]} className="fas fa-quote-left"></i>Justice delayed is justice denied.
+            <i id={style["closing-quotation-mark"]} className="fas fa-quote-right"></i></div>
+            <div className={style["citation"]}>- William E. Gladstone</div>
+          </div>
+        </div>
+        {/* Fourth Parallax Effect Section */}
         <Footer />
       </div>
     );

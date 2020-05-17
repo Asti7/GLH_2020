@@ -23,8 +23,14 @@
     height: 17rem;
     width: 22.5rem;
     font-size: 1.17rem;
-    box-shadow: 0 0 0.75rem 0.25rem grey;
+    border: 2px solid black;
     margin-bottom: 4rem;
+    &:hover{
+        box-shadow: -10px 10px 1px 0 black;
+        position: relative;
+        bottom: 4px;
+        left: 4px;
+    }
 
     #card-heading {
         font-size: 2rem;
@@ -40,6 +46,7 @@
 
         button {
             font-size: 1rem;
+            border: 1px solid black;
         }
     }
 }
@@ -155,6 +162,46 @@
 }
 
 // Third Parallax Effect Section
+
+// Fourth Parallax Effect Section
+
+.fourth-parallax-effect {
+    height: 100vh;
+    background: url(../../Assets/Images/melbourneRoads.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .content {
+        font-size: 4rem;
+        margin: auto;
+        position: relative;
+        top: 17.5rem;
+        color: white;
+
+        .quote {
+            margin: 0 0.9rem;
+
+            #opening-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+                padding-right: 0.5rem;
+            }
+
+            #closing-quotation-mark {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 2rem;
+            }
+        }
+
+        .citation {
+            font-size: 3rem;
+        }
+    }
+}
+
+// Fourth Parallax Effect Section
 
 // Testinomial Section
 
