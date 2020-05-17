@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:glh/constants/constants.dart';
+import 'package:glh/screens/consultancy_page.dart';
 import 'package:glh/screens/forums_page.dart';
 import 'package:glh/screens/login_signup_screen.dart';
 import 'package:glh/screens/question_card_page.dart';
@@ -14,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<Widget> pages = [QuestionCardPage(), ForumsPage()];
+  List<Widget> pages = [QuestionCardPage(), ForumsPage(), ConsultancyPage()];
   Widget page = QuestionCardPage();
 
   @override
@@ -66,7 +67,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   IconButton(
                     icon: Icon(Icons.message),
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        page = pages[2];
+                      });
+                    },
                   ),
                   IconButton(
                     icon: Icon(Icons.account_circle),

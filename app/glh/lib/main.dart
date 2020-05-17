@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:glh/screens/consultancy_page.dart';
 import 'package:glh/screens/forums_page.dart';
 import 'package:glh/screens/home_screen.dart';
 import 'package:glh/screens/question_card_search.dart';
@@ -21,7 +22,8 @@ class glhApp extends StatelessWidget {
         HomeScreen.id: (context) => HomeScreen(),
         QuestionCardSearch.id: (context) => QuestionCardSearch(),
         ForumsPage.id: (context) => ForumsPage(),
-        SituationModel.id: (context) => SituationModel()
+        SituationModel.id: (context) => SituationModel(),
+        ConsultancyPage.id: (context) => ConsultancyPage()
       },
     );
   }
