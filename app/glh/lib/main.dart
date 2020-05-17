@@ -8,6 +8,9 @@ import 'package:glh/screens/situation_model1.dart';
 import 'package:glh/screens/situation_model2.dart';
 import 'package:glh/screens/situation_model3.dart';
 import 'package:glh/screens/situation_model4.dart';
+import 'package:glh/screens/situation_model5.dart';
+import 'package:glh/screens/situation_model6.dart';
+import 'package:glh/screens/situation_model7.dart';
 
 import 'package:glh/screens/welcom_message_screen.dart';
 import 'screens/login_signup_screen.dart';
@@ -33,6 +36,12 @@ class glhApp extends StatelessWidget {
         SituationModel2.id: (context) => SituationModel2(),
         SituationModel3.id: (context) => SituationModel3(),
         SituationModel4.id: (context) => SituationModel4(),
+        SituationModel5.id: (context) => SituationModel5(),
+        SituationModel6.id: (context) => SituationModel6(),
+        SituationModel7.id: (context) => SituationModel7(),
+
+
+
 
 
 

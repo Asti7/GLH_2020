@@ -3,6 +3,7 @@ import 'package:glh/components/card_component.dart';
 import 'package:glh/constants/constants.dart';
 import 'package:glh/screens/question_card_page.dart';
 import 'package:glh/screens/situation_model2.dart';
+import 'package:glh/screens/situation_model5.dart';
 
 class SituationModel1 extends StatelessWidget {
   static const String id = 'situation_model1';
@@ -49,7 +50,9 @@ class SituationModel1 extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     CardComponent(
-                      onPressed: null,
+                      onPressed: (){
+                        Navigator.pushNamed(context, SituationModel5.id);
+                      },
                       delayAmountTime: 4,
                       text: 'Yes:  Are you satisfied with the agreement ?',
                     ),
