@@ -26,7 +26,15 @@ class LogInSignUpScreen extends StatelessWidget {
                     height: 100,
                   ),
                 ),
-                SizedBox(height: 100),
+                SizedBox(height: 20),
+                Text(
+                  'Legality',
+                  style: TextStyle(
+                    fontSize: 30.0,
+                    color: color8,
+                  ),
+                ),
+                SizedBox(height: 50),
                 RoundedButton(
                   title: 'Log In',
                   color: color8,
@@ -36,7 +44,7 @@ class LogInSignUpScreen extends StatelessWidget {
                   title: 'Sign Up',
                   color: color8,
                   onPressed: () {
-                    Navigator.pushNamed(context, WelcomeMessageScreen.id );
+                    Navigator.pushNamed(context, WelcomeMessageScreen.id);
                   },
                 ),
               ],

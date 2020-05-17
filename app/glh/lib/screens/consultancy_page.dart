@@ -3,7 +3,7 @@ import 'package:glh/components/category_section.dart';
 import 'package:glh/components/category_section_situations.dart';
 import 'package:glh/constants/constants.dart';
 import 'package:glh/screens/question_card_page.dart';
-import 'package:glh/screens/situation_model.dart';
+import 'package:glh/screens/situation_model0.dart';
 
 class ConsultancyPage extends StatelessWidget {
   static const String id = 'consultancy_page';

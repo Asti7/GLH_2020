@@ -6,7 +6,8 @@ import 'package:glh/components/category_section.dart';
 import 'package:glh/components/category_section_situations.dart';
 import 'package:glh/constants/constants.dart';
 import 'package:glh/screens/question_card_search.dart';
-import 'package:glh/screens/situation_model.dart';
+
+import 'package:glh/screens/situation_model0.dart';
 
 class QuestionCardPage extends StatefulWidget {
   static const String id = 'question_card_page';
@@ -28,7 +29,10 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
             child: FloatingActionButton(
               backgroundColor: color8,
               onPressed: () {
-                Navigator.pushNamed(context, QuestionCardSearch.id);
+                Navigator.push(
+                  context,
+                  FadeRoute(page: QuestionCardSearch()),
+                );
               },
               child: Icon(Icons.search),
             ),
@@ -73,7 +77,7 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                             'as a residential tenant',
                         onPressed: () {
                           Navigator.push(
-                              context, FadeRoute(page: SituationModel()));
+                              context, FadeRoute(page: SituationModel0()));
                         },
                       ),
                       Situations(
@@ -274,8 +278,8 @@ class FadeRoute extends PageRouteBuilder {
             Widget child,
           ) =>
               FadeTransition(
-                opacity: animation,
-                child: child,
-              ),
+            opacity: animation,
+            child: child,
+          ),
         );
 }
