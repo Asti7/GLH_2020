@@ -22,6 +22,7 @@ class consultancyPage extends Component {
             Search lawyers by their field of expertise:
           </div>
           <div className={style["serach-field-div"]}>
+            <div className={style["search-field-inner-div"]}>
             <div className={style["search-field-selector"]}>
             <input
               className="form-control"
@@ -33,10 +34,15 @@ class consultancyPage extends Component {
             />
             </div>
             <i id={style["filter-icon"]} className="fas fa-filter"></i>
+            </div>
+          </div>
+          <div className={style["first-parallax-effect"]}>
+            <span>Criminal</span>
           </div>
           <div className={style["consultancy-page-card-section"]}>
-            {/* Single Card */}
-            <div
+            <div className={style["criminal-section"]}>
+             {/* Single Card */}
+             <div
               className="card"
               id={style["consultancy-page-card"]}
             >
@@ -334,6 +340,7 @@ class consultancyPage extends Component {
               </div>
             </div>
             {/* Single Card */}
+            </div>
           </div>
         </div>
         <Footer />

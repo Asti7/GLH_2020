@@ -10,9 +10,18 @@
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    
+    .search-field-inner-div{
+        width: fit-content;
+        border: 2px solid black;
+        border-radius: 1rem;
+        display: flex;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
 
-    .search-field-selector{
-        margin-top: 2rem;
+    .search-field-selector {
+        margin: 2rem 0;
     }
 
     #search-bar-field {
@@ -31,16 +40,47 @@
 }
 
 .consultancy-page-card-section {
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-height: 20rem;
+    .criminal-section {
+        // margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 20rem;
+        border: 2px solid black;
+        margin: 1rem;
+        padding: 1rem 1.25rem;
+
+        .heading {
+            width: 100%;
+            display: flex;
+            font-size: 3rem;
+            padding-left: 1rem;
+        }
+    }
+}
+
+.first-parallax-effect {
+    background: url(../../../Assets/Images/melbourne.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10rem;
+    margin: 0 1rem;
+
+    span {
+        color: white;
+        font-size: 6rem;
+        background-color: black;
+        padding: 0 1rem;
+        position: relative;
+        top: 0.5rem;
+        border: 2px solid white;
+        outline: 4px solid black;
+    }
 }
 
 #consultancy-page-card {
     padding-top: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     border: 2px solid black;
     width: 20rem;
 }
