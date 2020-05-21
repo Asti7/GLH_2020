@@ -36,6 +36,7 @@ class SituationModel4 extends StatelessWidget {
                   ),
                 ),
                 CardComponent(
+                  color: color9,
                   onPressed: (){
                     Navigator.pushNamed(context, SituationModel7.id);
                   },

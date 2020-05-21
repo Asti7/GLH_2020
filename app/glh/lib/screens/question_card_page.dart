@@ -81,8 +81,8 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                         },
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -93,12 +93,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Property',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -109,12 +109,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Criminal',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -125,12 +125,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Civil',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -141,12 +141,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Financial',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -157,12 +157,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Intellectual Property',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -173,12 +173,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Terrorism',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),
@@ -189,12 +189,12 @@ class _QuestionCardPageState extends State<QuestionCardPage> {
                     categoryTitle: 'Martial',
                     situations: <Widget>[
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                       Situations(
-                        text: 'Rights and obligations\n'
-                            'as a residential tenant',
+                        text:
+                            'Lorem ipsum dolor sit amet, consectetur\n adipiscing elit, sed do eiusmod tempor\n incididunt ut labore et dolore magna aliqua. ',
                       ),
                     ],
                   ),

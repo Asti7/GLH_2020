@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:glh/screens/question_card_page.dart';
 
 class CardComponent extends StatelessWidget {
-  CardComponent({this.text, this.delayAmountTime,this.onPressed});
+  CardComponent({this.text, this.delayAmountTime,this.onPressed,this.color});
 
   final String text;
   final int delayAmountTime;
   final Function onPressed;
+  final Color color;
 
   var delayAmount = 500;
   @override
@@ -16,6 +17,7 @@ class CardComponent extends StatelessWidget {
       child: MaterialButton(
         onPressed: onPressed,
               child: Card(
+                color: color,
           elevation: 5,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),

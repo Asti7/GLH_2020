@@ -40,6 +40,7 @@ class SituationModel1 extends StatelessWidget {
                 ),
                 SizedBox(height: 40),
                 CardComponent(
+                  color: color7,
                   onPressed: null,
                   delayAmountTime: 3,
                   text:
@@ -50,6 +51,7 @@ class SituationModel1 extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     CardComponent(
+                      color: color9,
                       onPressed: (){
                         Navigator.pushNamed(context, SituationModel5.id);
                       },
@@ -58,6 +60,7 @@ class SituationModel1 extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     CardComponent(
+                      color: color9,
                       onPressed:(){
                         Navigator.pushNamed(context, SituationModel2.id);
                       },

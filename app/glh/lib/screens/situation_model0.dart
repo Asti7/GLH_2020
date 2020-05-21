@@ -22,6 +22,7 @@ class SituationModel0 extends StatelessWidget {
               children: <Widget>[
                 CardComponent(
                   onPressed: null,
+                  color: color7,
                   delayAmountTime: 2,
                   text:
                       'Have you been financially afftected by COVID-19 and are seeking advice on your rights and obligations as a reidential tenant.',
@@ -31,6 +32,7 @@ class SituationModel0 extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     CardComponent(
+                      color: color9,
                       onPressed: () {
                         Navigator.pushNamed(context, SituationModel3.id);
                       },
@@ -39,6 +41,7 @@ class SituationModel0 extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     CardComponent(
+                      color: color9,
                       onPressed: () {
                         Navigator.pushNamed(context, SituationModel1.id);
                       },
