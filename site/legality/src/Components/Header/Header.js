@@ -26,6 +26,7 @@ class Header extends Component {
               <img
                 src={require("../../Assets/Images/Logo.png")}
                 className={style["logo"]}
+                alt=""
               />
             </div>
           </div>

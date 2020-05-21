@@ -48,7 +48,7 @@ class consultancyPage extends Component {
             >
               {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
         
-              <img src={require("../../../Assets/LawyerPhotos/first.png")} id={style["first-image"]} />
+              <img src={require("../../../Assets/LawyerPhotos/first.png")} id={style["first-image"]} alt="" />
              
               <div className="card-body">
                 <h5 className="card-title">Harvey Spector</h5>
@@ -99,7 +99,7 @@ class consultancyPage extends Component {
             
               id={style["consultancy-page-card"]}
             >
-              <img src={require("../../../Assets/LawyerPhotos/second.png")} id={style["first-image"]} />
+              <img src={require("../../../Assets/LawyerPhotos/second.png")} id={style["first-image"]} alt="" />
               {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
                 <h5 className="card-title">Claud Gray</h5>
@@ -150,7 +150,7 @@ class consultancyPage extends Component {
              
               id={style["consultancy-page-card"]}
             >
-              <img src={require("../../../Assets/LawyerPhotos/third.png")} id={style["first-image"]} />
+              <img src={require("../../../Assets/LawyerPhotos/third.png")} id={style["first-image"]} alt="" />
               {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
                 <h5 className="card-title">James Gils</h5>
@@ -201,7 +201,7 @@ class consultancyPage extends Component {
             
               id={style["consultancy-page-card"]}
             >
-              <img src={require("../../../Assets/LawyerPhotos/fourth.png")} id={style["first-image"]} />
+              <img src={require("../../../Assets/LawyerPhotos/fourth.png")} id={style["first-image"]} alt="" />
               {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
                 <h5 className="card-title">Michael Brown</h5>
