@@ -15,7 +15,8 @@ class LawyerProfile extends Component {
         <Header />
         <div className={style["lawyer-profile-main-div"]}>
           <div className={style["user-picture-and-name-div"]}>
-            <i id={style["user-icon"]} class="fas fa-user-circle"></i>
+            {/* <i id={style["user-icon"]} class="fas fa-user-circle"></i> */}
+            <img src={require("../../../../Assets/LawyerPhotos/first.png")} alt="" id={style["lawyer-image"]} />
             <div className={style["karma-and-ratings-div"]}>
               <div className={style["ratings-div"]}>
                 <i class="fas fa-star"></i>
