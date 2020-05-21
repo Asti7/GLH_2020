@@ -147,7 +147,9 @@ class Property extends Component {
             />
           )}
           {this.state.selectionCode === 7 && (
-            <h1 className={style["final-conclusion-div"]}>{this.state.finalConclusion}</h1>
+            <h1 className={style["final-conclusion-div"]}>
+              {this.state.finalConclusion}
+            </h1>
           )}
         </div>
         <Footer />

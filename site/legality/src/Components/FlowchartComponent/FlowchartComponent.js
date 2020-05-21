@@ -15,7 +15,6 @@ class FlowchartComponent extends Component {
       <>
         <div className={style["flowchart-component-main-div"]}>
           <div className={style["question"]}>
-            <i id={style["circle-icon"]} className="fas fa-circle"></i>
             {this.state.question}
           </div>
           <div className={style["options-section"]}>

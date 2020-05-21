@@ -62,6 +62,7 @@ class LoginPage extends Component {
               <img
                 src={require("../../Assets/Images/Logo.png")}
                 className={style["login-box-logo"]}
+                alt=""
               />
             </div>
             <div className={style["login-box-login-options"]}>

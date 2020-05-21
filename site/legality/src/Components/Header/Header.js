@@ -15,28 +15,41 @@ class Header extends Component {
           <div className={style["name-and-logo-div"]}>
             <div className={style["name-div"]}>
               <Link to="/" style={{ color: "black", textDecoration: "none" }}>
-                Legality
+                LEGALITY
               </Link>
             </div>
+            {/* <div className={style["tagline"]}>
+              {" "}
+              <span>Your Legal Umbrella</span>
+            </div> */}
             <div className={style["logo-div"]}>
               <img
                 src={require("../../Assets/Images/Logo.png")}
                 className={style["logo"]}
+                alt=""
               />
             </div>
           </div>
           <div className={style["menu-options-div"]}>
-          <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]} to="/">HOME</Link>
+            <div className={style["menu-option"]}>
+              <Link className={style["menu-option-link"]} to="/">
+                HOME
+              </Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]} to="/forum">FORUM</Link>
+              <Link className={style["menu-option-link"]} to="/forum">
+                FORUM
+              </Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]} to="/consultancy">CONSULT</Link>
+              <Link className={style["menu-option-link"]} to="/consultancy">
+                CONSULT
+              </Link>
             </div>
             <div className={style["menu-option"]}>
-              <Link className={style["menu-option-link"]} to="/questionnaire">FLOWCHARTS</Link>
+              <Link className={style["menu-option-link"]} to="/questionnaire">
+              SITUATION CARDS
+              </Link>
             </div>
             <div className={style["menu-option"]}>
               <Link className={style["menu-option-link"]} to="/contactus">
@@ -48,11 +61,11 @@ class Header extends Component {
                 ABOUT US
               </Link>
             </div>
-            <div className={style["menu-option"]}>
+            {/* <div className={style["menu-option"]}>
               <Link className={style["menu-option-link"]} to="login">
                 LOGIN / SIGN UP
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </>

@@ -20,7 +20,7 @@ class ContactUsPage extends Component {
             </div>
             <div className={style["contact-us-details-div"]}>
               <div className={style["map-div"]}>
-                <img src={require("../../Assets/Images/map.png")} />
+                <img src={require("../../Assets/Images/map.png")} alt="" />
               </div>
               <div className={style["location-details-div"]}>
                 <div className={style["heading"]}>Contact Details</div>
