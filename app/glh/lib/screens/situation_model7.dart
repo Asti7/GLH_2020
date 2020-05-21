@@ -20,12 +20,15 @@ class SituationModel7 extends StatelessWidget {
               // crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 CardComponent(
+                  color: color7,
                     onPressed: null,
                     delayAmountTime: 2,
                     text: 'If the property\n\n'
                         '1. is destroyed or unfit to live in\n'
                         '2. is needed for a public purpose'),
                 CardComponent(
+                  color: color7,
+
                     onPressed: null,
                     delayAmountTime: 2,
                     text: 'If the tenant\n\n'
@@ -39,6 +42,8 @@ class SituationModel7 extends StatelessWidget {
                         '8. kept a pet after VCAT had made an order for it to be excluded (removed)\n'
                         '9. used the property for an illegal purpose'),
                 CardComponent(
+                  color: color7,
+
                     onPressed: null,
                     delayAmountTime: 2,
                     text: 'For public housing\n\n'
@@ -47,6 +52,8 @@ class SituationModel7 extends StatelessWidget {
                         '3. the landlord intends to repair, renovate,rebuild or demolish the rented premises\n'
                         "4. If the authorities were misleadingly or falsely induced as to the tenant's elgibility"),
                 CardComponent(
+                  color: color7,
+
                     onPressed: null,
                     delayAmountTime: 2,
                     text: 'If the landlord\n\n'

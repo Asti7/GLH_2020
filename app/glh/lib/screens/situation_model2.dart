@@ -38,10 +38,11 @@ class SituationModel2 extends StatelessWidget {
                 ),
                 SizedBox(height: 40),
                 CardComponent(
+                  color: color9,
                   onPressed: null,
                   delayAmountTime: 3,
                   text:
-                      'Templates////',
+                      'How to negotiate rent reduction.',
                 ),
                 SizedBox(height: 40),
                 ShowUp(

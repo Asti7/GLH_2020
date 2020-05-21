@@ -120,7 +120,7 @@ class WelcomeMessageScreen extends StatelessWidget {
                       children: <TextSpan>[
                         TextSpan(text: "or directly connect with a "),
                         TextSpan(
-                            text: "Legal professionals",
+                            text: "Legal professional",
                             style: TextStyle(color: Color(0xff639a67)))
                       ]),
                 ),

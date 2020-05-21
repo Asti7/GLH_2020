@@ -46,7 +46,7 @@ class ConsultancyPage extends StatelessWidget {
                 ),
                 ShowUp(
                   child: Text(
-                    'Search Lawyers by their field of expertise...',
+                    'Search Lawyers...',
                     style: TextStyle(color: color8, fontSize: 21),
                   ),
                   delay: delayAmount * 2,
@@ -77,7 +77,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -101,59 +101,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -181,7 +129,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -205,59 +153,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -285,7 +181,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -309,59 +205,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
-                                    SizedBox(height: 10),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            child: Card(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              color: color7,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    MaterialButton(
-                                      onPressed: () {},
-                                      child: CircleAvatar(
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -389,7 +233,7 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),
@@ -413,7 +257,163 @@ class ConsultancyPage extends StatelessWidget {
                                       ),
                                     ),
                                     SizedBox(height: 10),
-                                    Text('Harvey Specter'),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
+                                    SizedBox(height: 10),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            child: Card(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              color: color7,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    MaterialButton(
+                                      onPressed: () {},
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    Text('John Appleseed'),
                                     SizedBox(height: 10),
                                   ],
                                 ),

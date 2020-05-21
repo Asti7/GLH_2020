@@ -55,7 +55,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         page = pages[0];
                       });
                     },
-                    splashColor: null,
                   ),
                   IconButton(
                     icon: Icon(Icons.forum),
@@ -66,7 +65,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                   ),
                   IconButton(
-                    
                     icon: Icon(Icons.message),
                     onPressed: () {
                       setState(() {
