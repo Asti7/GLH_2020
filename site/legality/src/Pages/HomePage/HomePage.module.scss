@@ -2,6 +2,10 @@
     overflow-x: hidden;
 }
 
+.functionalities-main-div{
+    background-color: #f1e3cb;
+}
+
 .functionalities-div-main-heading {
     font-size: 4rem;
 }
@@ -63,8 +67,9 @@
         font-size: 4rem;
         margin: auto;
         position: relative;
-        top: 17.5rem;
+        top: 15rem;
         color: white;
+        width: 70vw;
     }
 }
 
@@ -234,3 +239,7 @@
 }
 
 // Testinomial Section
+
+p[data-test="sitcards"] , p[data-test="forum"]{
+    padding: 1rem;
+}

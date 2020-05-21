@@ -46,10 +46,13 @@ class consultancyPage extends Component {
               className="card"
               id={style["consultancy-page-card"]}
             >
-              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
+        
+              <img src={require("../../../Assets/LawyerPhotos/first.png")} id={style["first-image"]} />
+             
               <div className="card-body">
-                <h5 className="card-title">James Harbour</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
+                <h5 className="card-title">Harvey Spector</h5>
+                <h6 className="card-subtitle mb-2 text-muted">Spector Lawyers</h6>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -96,9 +99,10 @@ class consultancyPage extends Component {
             
               id={style["consultancy-page-card"]}
             >
-              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <img src={require("../../../Assets/LawyerPhotos/second.png")} id={style["first-image"]} />
+              {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
-                <h5 className="card-title">Tony Stark</h5>
+                <h5 className="card-title">Claud Gray</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up
@@ -146,7 +150,8 @@ class consultancyPage extends Component {
              
               id={style["consultancy-page-card"]}
             >
-              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <img src={require("../../../Assets/LawyerPhotos/third.png")} id={style["first-image"]} />
+              {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
                 <h5 className="card-title">James Gils</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
@@ -196,9 +201,10 @@ class consultancyPage extends Component {
             
               id={style["consultancy-page-card"]}
             >
-              <i className="fas fa-user-circle" id={style["user-icon"]}></i>
+              <img src={require("../../../Assets/LawyerPhotos/fourth.png")} id={style["first-image"]} />
+              {/* <i className="fas fa-user-circle" id={style["user-icon"]}></i> */}
               <div className="card-body">
-                <h5 className="card-title">Claud Gray</h5>
+                <h5 className="card-title">Michael Brown</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Gilbert Law House</h6>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up

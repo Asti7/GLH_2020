@@ -9,7 +9,7 @@ class QuestionnairePage extends Component {
     super(props);
     this.state = {
       categoriesList: [
-        "Property",
+        "Employment",
         "Criminal",
         "Civil",
         "Covid 19",
@@ -19,7 +19,7 @@ class QuestionnairePage extends Component {
         "Martial",
       ],
       filteredList: [
-        "Property",
+        "Employment",
         "Criminal",
         "Civil",
         "Covid 19",
@@ -62,7 +62,7 @@ class QuestionnairePage extends Component {
             Legal Accessibility
           </div>
           <div className={style["questionnaire-page-subheading-div"]}>
-            Please search and select the categorie(s) of your case:
+          What area of law do you need assistance with?
           </div>
           <div className={style["search-bar-functionality"]}>
             <div
