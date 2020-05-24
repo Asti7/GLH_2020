@@ -133,15 +133,16 @@ class ForumsPage extends StatelessWidget {
                               Row(
                                 children: <Widget>[
                                   CircleAvatar(
-                                    backgroundColor: Colors.amber,
+                                    backgroundImage:
+                                        AssetImage('images/astitva.jpeg'),
                                   ),
                                   SizedBox(width: 10),
-                                  Text('John Appleseed')
+                                  Text('Astitva Gautam')
                                 ],
                               ),
                               SizedBox(height: 10),
                               Text(
-                                  'My employer fired me without giving me any advanced notice ?'),
+                                  'My landlord has increased rent without any prior notice, can she do this ?'),
                               SizedBox(height: 5),
                               Card(
                                 color: color9,
