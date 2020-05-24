@@ -8,7 +8,7 @@ PS: UI Demo (mockup)
 
 ### App mockup
 
-<img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss1.png" width="350"/>  <img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss2.png" width="350"/>  <img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss3.png" width="350"/>
+<img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss1.png" width="300"/>  <img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss2.png" width="300"/>  <img src="https://github.com/Asti7/GLH_2020/blob/master/app/glh/screenshots/ss3.png" width="300"/>
 
 ### Site mockup
 
